@@ -10,6 +10,16 @@
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
+    .card a {
+        color: #C4A97D;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+
+    .card a:hover {
+        color: #4A3520;
+    }
+
     body {
       font-family: 'DM Sans', sans-serif;
       background: #F7F3ED;
@@ -307,7 +317,7 @@
   <div class="hero">
     <div class="hero-name">David Augustin</div>
     <div class="hero-divider"></div>
-    <div class="hero-sub">CS Student &nbsp;·&nbsp; Builder &nbsp;·&nbsp; Athens, GA</div>
+    <div class="hero-sub">CS Student &nbsp;·&nbsp; Game Developer &nbsp;·&nbsp; 3D Modeller</div>
   </div>
 
   <!-- TABS -->
@@ -324,15 +334,15 @@
   <div class="panel active" id="tab-about">
     <h2>About Me</h2>
     <p class="about-intro">
-      "Hi! I'm David — a CS student who loves building things, solving problems,
-      and learning something new every day."
+      "Hi! I'm David — a Computer Science student who loves building new projects, solving problems,
+      and learning skills every day."
     </p>
     <ul class="about-list">
       <li><span>School</span><span>University of Georgia</span></li>
       <li><span>Major</span><span>Computer Science</span></li>
       <li><span>Year</span><span>Junior (Class of 2026)</span></li>
       <li><span>Based in</span><span>Athens, Georgia</span></li>
-      <li><span>Interests</span><span>Software engineering, open source, and making cool stuff</span></li>
+      <li><span>Interests</span><span>Software Engineering, Cybersecurity, Game Development</span></li>
     </ul>
   </div>
 
@@ -342,8 +352,12 @@
 
     <div class="card">
       <div class="meta">2024 · Web App</div>
-      <h3>Project One</h3>
-      <p>A brief description of what this project does, the problem it solves, and what you learned building it. Add a GitHub link here if you want!</p>
+      <h3>GalleryApp — JavaFX iTunes Search API Image Gallery</h3>
+      <p>Built a JavaFX GUI that retrieves and displays images from the iTunes Search API using asynchronous HTTP requests 
+        and JSON parsing for dynamic search results. Designed an interactive UI with search filters, dropdowns, and a 
+        responsive image layout, applying OOP principles including inheritance, interfaces, and polymorphism throughout the app structure, 
+        with error handling and image loading optimizations for a smoother experience.
+      </p>
       <div class="tags">
         <span class="tag">React</span>
         <span class="tag">Node.js</span>
@@ -353,8 +367,10 @@
 
     <div class="card">
       <div class="meta">2023 · CLI Tool</div>
-      <h3>Project Two</h3>
-      <p>A brief description of what this project does, the problem it solves, and what you learned building it.</p>
+      <h3>Minecraft Home Lab Server with SIEM Integration</h3>
+      <p>Deployed a Linux-based Minecraft server with secure user authentication, automated server lifecycle management, and resource optimization. 
+        Integrated Wazuh SIEM for real-time monitoring of network activity, system performance, and logs.
+      </p>
       <div class="tags">
         <span class="tag">Python</span>
         <span class="tag">APIs</span>
@@ -363,8 +379,10 @@
 
     <div class="card">
       <div class="meta">2023 · Mobile</div>
-      <h3>Project Three</h3>
-      <p>A brief description of what this project does, the problem it solves, and what you learned building it.</p>
+      <h3>UGAhacks 11 Hackathon</h3>
+      <p>Flying Broom Flight Controller Collaborated with a team to build a magic-themed flying broomstick controller during a 36-hour hackathon. 
+        Developed flight control software running on two ESP32 microcontrollers with peer-to-peer communication to transmit joystick input data in real time.
+      </p>
       <div class="tags">
         <span class="tag">Swift</span>
         <span class="tag">Firebase</span>
@@ -377,22 +395,25 @@
     <h2>Clubs & Activities</h2>
 
     <div class="card">
-      <div class="meta">2022 – Present · Leadership</div>
-      <h3>Club / Org Name</h3>
-      <p>What the club does, your role, and any highlights or accomplishments worth mentioning.</p>
+      <div class="meta">2025 – Present · Member</div>
+      <h3>TheHackPack [University of Georgia]</h3>
+      <p>TheHackPack is a student led organization within UGA all about learning practical cybersecurity skills and competing in competitions.
+        At my time here I have joined numerous competitions including NCAE, HackTheMadness, and PicoCTF. Through these competitions I learned about
+        Network Security, Web Exploitation, Threat Intelligence, and more cybersecurity fundamentals. I have also gained real expereince using tools 
+        such as wire shark, burp suite, and kali linux.  
+      </p>
     </div>
 
     <div class="card">
-      <div class="meta">2023 – Present · Member</div>
-      <h3>Hackathon Team / CS Club</h3>
-      <p>What the club does, your role, and any highlights or accomplishments worth mentioning.</p>
+      <div class="meta">2026 – Present · Member</div>
+      <h3> Game Builders Club [University of Georgia]</h3>
+      <p> Game Builders Club is an organization dedicated to the entire game development process. 
+        Through this club I have found a team passionate about creating a tangible experience for others to enjoy. 
+        I am currently helping with creating 3D models and coding the base systems. 
+        You can wishlist our game on Steam here: <a href="https://store.steampowered.com/app/3782370/Plunderwake/" target="_blank">Plunderwake on Steam</a>
+      </p>
     </div>
 
-    <div class="card">
-      <div class="meta">2022 · Competition</div>
-      <h3>Hackathon or Competition</h3>
-      <p>What you built, who you built it with, and how it went.</p>
-    </div>
   </div>
 
   <!-- ── HOBBIES ── -->
@@ -402,8 +423,10 @@
     <div class="hobby-row">
       <div class="hobby-icon">🎮</div>
       <div class="hobby-text">
-        <h3>Gaming</h3>
-        <p>Replace with your actual hobby and a line or two about why you love it.</p>
+        <h3>3D Modelling / Art</h3>
+        <p>I have been 3D modelling for 2.5 years with Blender, and I specalize in 
+        character sculpting and building design.  
+        </p>
       </div>
     </div>
 
@@ -411,23 +434,9 @@
       <div class="hobby-icon">📚</div>
       <div class="hobby-text">
         <h3>Reading</h3>
-        <p>Replace with your actual hobby and a line or two about why you love it.</p>
-      </div>
-    </div>
-
-    <div class="hobby-row">
-      <div class="hobby-icon">🎵</div>
-      <div class="hobby-text">
-        <h3>Music</h3>
-        <p>Replace with your actual hobby and a line or two about why you love it.</p>
-      </div>
-    </div>
-
-    <div class="hobby-row">
-      <div class="hobby-icon">🥾</div>
-      <div class="hobby-text">
-        <h3>Hiking</h3>
-        <p>Replace with your actual hobby and a line or two about why you love it.</p>
+        <p>Ever since my formative years I have enjoyed reading. I finished multiple fictional series
+        such as Percy Jackson & The Olympians and Artemis Fowler. I am now reading White Nights by Fyodor Dostoevsky!
+        </p>
       </div>
     </div>
   </div>
@@ -440,30 +449,41 @@
     <div class="skills-grid">
       <div class="skill-chip">Python</div>
       <div class="skill-chip">Java</div>
-      <div class="skill-chip">C / C++</div>
+      <div class="skill-chip">C</div>
       <div class="skill-chip">JavaScript</div>
       <div class="skill-chip">HTML / CSS</div>
       <div class="skill-chip">SQL</div>
+      <div class="skill-chip">MATLAB</div>
+      <div class="skill-chip">R Project</div>
     </div>
 
     <div class="section-label">Frameworks & Tools</div>
     <div class="skills-grid">
-      <div class="skill-chip">React</div>
-      <div class="skill-chip">Git</div>
-      <div class="skill-chip">Node.js</div>
-      <div class="skill-chip">VS Code</div>
-      <div class="skill-chip">Linux</div>
+      <div class="skill-chip">Excel</div>
+      <div class="skill-chip">Github</div>
+      <div class="skill-chip">MITRE ATT&CK</div>
+      <div class="skill-chip">Visual Studio Code</div>
+      <div class="skill-chip">OpenCTI</div>
+      <div class="skill-chip">NIST</div>
+      <div class="skill-chip">Wireshark</div>
+      <div class="skill-chip">SIEM</div>
+      <div class="skill-chip">Blender 3D</div>
+      <div class="skill-chip">Eclipse IDE</div>
+      <div class="skill-chip">Intellij IDEA</div>
+      <div class="skill-chip">Docker IDEA</div>
+      <div class="skill-chip">Unity IDEA</div>
+      <div class="skill-chip">ESP32</div>
     </div>
 
     <div class="section-label">Resume</div>
     <div class="card">
       <h3>Download my resume</h3>
       <p style="margin-top: 0.3rem;">
-        Place your PDF in the same folder as this file, then update the link below.
+        
       </p>
       <div class="tags">
         <!-- Change "resume.pdf" to your actual file name -->
-        <a href="resume.pdf" class="tag" style="text-decoration:none;">📄 resume.pdf</a>
+        <a href="Resume.pdf" class="tag" style="text-decoration:none;">📄 resume.pdf</a>
       </div>
     </div>
   </div>
@@ -477,7 +497,7 @@
       <div class="contact-icon">✉️</div>
       <div>
         <div class="cl-label">Email</div>
-        <div class="cl-val">your@email.com</div>
+        <div class="cl-val">davidaugustinwork@email.com</div>
       </div>
     </a>
 
@@ -485,7 +505,7 @@
       <div class="contact-icon">GH</div>
       <div>
         <div class="cl-label">GitHub</div>
-        <div class="cl-val">github.com/yourusername</div>
+        <div class="cl-val">github.com/David-Brendan-Augustin/David-Brendan-Augustin</div>
       </div>
     </a>
 
@@ -493,7 +513,7 @@
       <div class="contact-icon">in</div>
       <div>
         <div class="cl-label">LinkedIn</div>
-        <div class="cl-val">linkedin.com/in/yourusername</div>
+        <div class="cl-val">linkedin.com/in/david-augustin-78907934a</div>
       </div>
     </a>
   </div>
