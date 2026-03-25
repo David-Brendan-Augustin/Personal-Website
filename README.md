@@ -1,4 +1,4 @@
-# David Augustin — Personal Website
+# David Augustin - Personal Website
 
 A personal portfolio showcasing my projects, clubs, hobbies, and skills as a CS student at the University of Georgia.
 
